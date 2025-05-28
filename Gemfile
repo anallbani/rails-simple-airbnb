@@ -57,3 +57,7 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  gem 'rspec-rails'
+  gem 'rails-controller-testing'
+end
